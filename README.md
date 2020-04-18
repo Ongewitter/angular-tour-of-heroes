@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
+## Note to self:
+
+This shit don't work and don't look like nothing. Like seriously, comments in code? Who does that these days?
+
+There's also a bunch of stupid methods and indents to fix, like what the hell
+
+But that's if you ever get back to this.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
