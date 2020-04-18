@@ -15,9 +15,7 @@ export class HeroService {
               private http: HttpClient) { }
 
   getHeroes(): Observable<Hero[]> {
-    // TODO: Send message after fetching :kappa:
-    this.messageService.add('HeroService: Fetched Heroes');
-    return of(HEROES);
+    return this.http.get<Hero[]>(this.heroesUrl);
   }
 
   getHero(id: number): Observable<Hero> {
